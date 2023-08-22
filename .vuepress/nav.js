@@ -23,12 +23,12 @@ module.exports = [
         "text": "关于",
         "icon": "reco-message",
         "items": [
-            { text: 'GitHub', link: 'https://github.com/glassy-sky-lisong', icon: 'reco-github' },
-            { text: '博客园', link: 'https://cnblogs.com/glassysky', icon: 'reco-bokeyuan' },
-            { text: '掘金', link: 'https://juejin.im', icon: 'reco-juejin' },
-            { text: '哔哩哔哩', link: 'https://space.bilibili.com/476991968', icon: 'reco-bilibili' },
-            { text: '码云', link: 'https://gitee.com/glassyskyforgame', icon: 'reco-mayun' },
-            { text: 'Twitter', link: 'https://twitter.com/GLASSYSKY113', icon: 'reco-twitter' }
+            { text: 'GitHub', link: 'hhttps://github.com/wushengly', icon: 'reco-github' },
+            // { text: '博客园', link: 'https://cnblogs.com/glassysky', icon: 'reco-bokeyuan' },
+            // { text: '掘金', link: 'https://juejin.im', icon: 'reco-juejin' },
+            // { text: '哔哩哔哩', link: 'https://space.bilibili.com/476991968', icon: 'reco-bilibili' },
+            // { text: '码云', link: 'https://gitee.com/glassyskyforgame', icon: 'reco-mayun' },
+            // { text: 'Twitter', link: 'https://twitter.com/GLASSYSKY113', icon: 'reco-twitter' }
         ]
     }
 ]
