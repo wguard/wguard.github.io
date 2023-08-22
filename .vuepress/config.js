@@ -1,7 +1,7 @@
 module.exports = {
   "title": "blog",
   "description": "欢迎来到我的博客！！！",
-  "dest": "public",
+  "dest": "/tmp/public",
   "head": [
     // 网页标签栏图标
     ['link', { rel: 'icon', href: '/vuepress/favicon.ico' }],
@@ -23,8 +23,7 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     "subSidebar": 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
-    "mode": 'dark',
-    "modePicker": false ,// 默认 true，false 不显示模式调节按钮，true 则显示
+    "modePicker": false,// 默认 true，false 不显示模式调节按钮，true 则显示
     "sidebar": 'auto',
     "nav": require("./nav.js"),
     "sidebar": require("./sidebar.js"),
@@ -100,30 +99,30 @@ module.exports = {
       'flowchart'
     ],
     [
-      "@vuepress-reco/vuepress-plugin-bgm-player",{
-      audios: [
-        // 本地文件示例
-        // {
-        //   name: '장가갈 수 있을까',
-        //   artist: '咖啡少年',
-        //   url: '/bgm/1.mp3',
-        //   cover: '/bgm/1.jpg'
-        // },
-        // 网络文件示例
-        {
-          name: '강남역 4번 출구',
-          artist: 'Plastic / Fallin` Dild',
-          url: 'https://assets.smallsunnyfox.com/music/2.mp3',
-          cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
-        },
-        {
-          name: '用胳膊当枕头',
-          artist: '최낙타',
-          url: 'https://assets.smallsunnyfox.com/music/3.mp3',
-          cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
-        }
-      ]
-    }
+      "@vuepress-reco/vuepress-plugin-bgm-player", {
+        audios: [
+          // 本地文件示例
+          // {
+          //   name: '장가갈 수 있을까',
+          //   artist: '咖啡少年',
+          //   url: '/bgm/1.mp3',
+          //   cover: '/bgm/1.jpg'
+          // },
+          // 网络文件示例
+          {
+            name: '강남역 4번 출구',
+            artist: 'Plastic / Fallin` Dild',
+            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+          },
+          {
+            name: '用胳膊当枕头',
+            artist: '최낙타',
+            url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+          }
+        ]
+      }
     ],
 
   ]

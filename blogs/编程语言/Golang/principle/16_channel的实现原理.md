@@ -8,7 +8,7 @@ tags:
  - Golang实现原理
 ---
 
-# channel实现原理
+# channel的实现原理
 
 ## 前言
 

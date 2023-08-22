@@ -7,11 +7,6 @@ heroImageStyle: {
   width: '100%',
   display: block,
   margin: '9rem auto 2rem',
-  background: '#fff',
   borderRadius: '1rem',
-}
-bgImage: back.jpg
-bgImageStyle: {
-  height: 100vh
 }
 ---
