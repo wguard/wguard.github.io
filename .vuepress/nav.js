@@ -23,7 +23,7 @@ module.exports = [
         "text": "关于",
         "icon": "reco-message",
         "items": [
-            { text: 'GitHub', link: 'hhttps://github.com/wushengly', icon: 'reco-github' },
+            { text: 'GitHub', link: 'https://github.com/wushengly', icon: 'reco-github' },
             // { text: '博客园', link: 'https://cnblogs.com/glassysky', icon: 'reco-bokeyuan' },
             // { text: '掘金', link: 'https://juejin.im', icon: 'reco-juejin' },
             // { text: '哔哩哔哩', link: 'https://space.bilibili.com/476991968', icon: 'reco-bilibili' },
