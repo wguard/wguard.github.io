@@ -1,4 +1,3 @@
-npm run build
 
 cd public
 
